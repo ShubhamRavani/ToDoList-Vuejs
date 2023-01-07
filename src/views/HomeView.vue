@@ -101,7 +101,7 @@ export default {
       } else {
         this.tasks.push({
           name: this.task,
-          status: 'todo'
+          status: 'to-do'
         })
       }
       this.task = ''
